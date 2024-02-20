@@ -114,15 +114,11 @@ max_value = max(cetnostdict.values())
 max_key = max(cetnostdict.keys())
 max_keyLen = len(str(max_key))
 len_oc = len("OCCURENCES")
-# print(max_value)
 occRight = 1
 if ((max_value-len_oc)/2+1) % 2 == 0: occRight = 0
 
 print(oddelovac)
 print(f"{'LEN|': <{max_keyLen+1}}{' ': >{(max_value-len_oc)/2+1}}{'OCCURENCES'}{' ': <{(max_value-len_oc)/2+occRight}}{'|NR.'}")
-# print(f"{'LEN|': <{max_keyLen+1}}{' ': >{(max_value-len_oc)/2+1}}{'OCCURENCES'}{' ': <{(max_value-len_oc)/2+1}}{'|NR.'}")
-# print(f"{'LEN|': <{max_keyLen+1}}{'OCCURENCES': <{max_value+2}}{'|NR.'}")
-# print(f"{'LEN|': <5}{'OCCURENCES': <15}{'|NR.'}")
 print('-' * 40)
 
 for key, value in cetnostdict.items():
