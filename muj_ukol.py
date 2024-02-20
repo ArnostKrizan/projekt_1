@@ -123,4 +123,3 @@ print('-' * 40)
 
 for key, value in cetnostdict.items():
     print(f"{key: >{max_keyLen+1}}|{'*' * value: <{max_value+1}}|{value}")
-#     print(f"{key: > 3}|{'*' * value: <16}|{value}")
